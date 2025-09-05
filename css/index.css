@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
+.tasa-orbiter-<uniquifier> {
+  font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+    
+h1, h2, h3 {
+      font-family: "Work Sans", sans-serif;
+}
+
+p, p>a {
+      font-family: "TASA Orbiter", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: #4f5458 url(/Img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar {
+    width: 100vw;
+    height: 70px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 100px;
+}
+
+.flex h1 {
+  font-weight: 700;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rgb(107, 97, 97);rgb(160, 123, 123)rgb(105, 99, 99)rgb(121, 117, 117);
+}
+
+.flex h1 a {
+    color: #000;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 20x;
+    padding: 20px;
+    margin: 5px 20px;
+    color: #000;
+}
+
+.navbar nav ul li a {
+    color: #000;
+}
+
+.navbar ul .current {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.navbar nav ul li a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.center h2 {
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+.center p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.center button {
+    margin: 20px;
+    padding: 10px;
+    width: 10em;
+    background: none;
+    outline: none;
+    border: 2px solid #000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.center button:hover {
+    background-color: #d6d0c1;
+}
+
+.center .links {
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.center .links .github:hover {
+    fill: #ffff;
+}
+
+.center .links .linkedln:hover {
+    fill: #0A66C2;
+}
+
+.center .links .twitter:hover {
+    fill: #ffffff;
+}
+
+
